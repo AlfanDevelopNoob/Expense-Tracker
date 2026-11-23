@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="container">
+      <i class="fa-solid fa-file-invoice"></i>
+      <h1>Expanse Tracker</h1>
+    </div>
+    
+  </header>
+  <main>
+    <section id="container-input">
+      <form id="input">
+          <label for="pengeluaran"></label>
+          <input type="text"id="pengeluaran"name="Pengeluaran  "placeholder="Contoh:Makan siang">
+
+          <label for="nominal"></label>
+          <input type="text" id="nominal"name="nominal"   placeholder="Contoh: 2500">
+
+          <button type="submit">Save Data</button>
+      </form>
+    </section>
+    <section id="daftar">
+      <h1>Daftar Pengeluaran</h1>
+      <div id="total"></div>
+      <div id="list"></div>
+    </section>  
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
